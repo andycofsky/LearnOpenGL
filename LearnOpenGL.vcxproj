@@ -20,7 +20,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\glad.c" />
-    <ClCompile Include="src\helloTriangle_exercises.cpp" />
+    <ClCompile Include="src\shaders.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
