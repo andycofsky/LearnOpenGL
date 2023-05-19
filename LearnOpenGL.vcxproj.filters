@@ -18,8 +18,24 @@
     <ClCompile Include="src\glad.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\shaders.cpp">
+    <ClCompile Include="src\Getting Started\Textures\textures.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="headers\shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\Getting Started\Shaders\vertex.shader" />
+    <None Include="src\Getting Started\Shaders\fragment.shader" />
+    <None Include="src\Getting Started\Textures\fragment.shader" />
+    <None Include="src\Getting Started\Textures\vertex.shader" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="src\Getting Started\Textures\wall.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
   </ItemGroup>
 </Project>

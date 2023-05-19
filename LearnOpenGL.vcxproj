@@ -19,8 +19,20 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\Getting Started\Textures\textures.cpp" />
     <ClCompile Include="src\glad.c" />
-    <ClCompile Include="src\shaders.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="headers\shader.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\Getting Started\Shaders\fragment.shader" />
+    <None Include="src\Getting Started\Shaders\vertex.shader" />
+    <None Include="src\Getting Started\Textures\fragment.shader" />
+    <None Include="src\Getting Started\Textures\vertex.shader" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="src\Getting Started\Textures\wall.jpg" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
@@ -75,11 +87,11 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>C:\OpenGL-Libs\Include;$(IncludePath)</IncludePath>
+    <IncludePath>C:\Dev\LearnOpenGL\LearnOpenGL\headers;C:\OpenGL-Libs\Include;$(IncludePath)</IncludePath>
     <LibraryPath>C:\OpenGL-Libs\Lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <IncludePath>C:\OpenGL-Libs\Include;$(IncludePath)</IncludePath>
+    <IncludePath>C:\Dev\LearnOpenGL\LearnOpenGL\headers;C:\OpenGL-Libs\Include;$(IncludePath)</IncludePath>
     <LibraryPath>C:\OpenGL-Libs\Lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
