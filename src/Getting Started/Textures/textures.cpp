@@ -7,7 +7,6 @@
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 void processInput(GLFWwindow* window);
-static void cursor_position_callback(GLFWwindow* window, double xpos, double ypos);
 
 // settings
 const unsigned int SCR_WIDTH = 800;
@@ -52,6 +51,12 @@ int main()
         0.0f, 0.5f, 0.0f,	0.0f, 0.0f, 1.0f    // top
     };
 
+    float texCoords[] = {
+        0.0f, 0.0f, // lower-left corner
+        1.0f, 0.0f, // lower-right corner
+        0.5f, 1.0f  // top-center corner
+    };
+
     unsigned int VBO, VAO;
     glGenVertexArrays(1, &VAO);
     glGenBuffers(1, &VBO);
@@ -84,8 +89,6 @@ int main()
         // rendering commands here
         glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT);
-
-        glfwSetCursorPosCallback(window, cursor_position_callback);
 
         ourShader.use();
 

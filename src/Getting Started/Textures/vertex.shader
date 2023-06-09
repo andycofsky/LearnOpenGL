@@ -8,6 +8,6 @@ void main()
 {
     //gl_Position = vec4(aPos, 1.0);
     //gl_Position = vec4(aPos.x, -aPos.y, aPos.z, 1.0); // flip triangle upside down by doing -aPos.y
-    gl_Position = vec4(aPos.x + xOffset, aPos.y + yOffset, aPos.z, 1.0); // slide triangle horizontally using uniform xOffset
+    gl_Position = vec4(aPos.x, aPos.y, aPos.z, 1.0); // slide triangle horizontally using uniform xOffset
     ourColor = aColor; // set ourColor to the input color we got from the vertex data
 }

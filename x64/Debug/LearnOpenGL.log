@@ -1,4 +1,1 @@
-﻿  shaders-withClass.cpp
-C:\Dev\LearnOpenGL\LearnOpenGL\headers\shader.h(54,8): warning C4101: 'infoLog': unreferenced local variable
-C:\Dev\LearnOpenGL\LearnOpenGL\headers\shader.h(53,7): warning C4101: 'success': unreferenced local variable
-  LearnOpenGL.vcxproj -> C:\Dev\LearnOpenGL\x64\Debug\LearnOpenGL.exe
+﻿  LearnOpenGL.vcxproj -> C:\Dev\LearnOpenGL\x64\Debug\LearnOpenGL.exe
