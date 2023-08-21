@@ -18,7 +18,10 @@
     <ClCompile Include="src\glad.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\Getting Started\Textures\textures.cpp">
+    <ClCompile Include="src\stb_image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Getting Started\Transformations\transformations.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -26,15 +29,35 @@
     <ClInclude Include="headers\shader.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="headers\stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="src\Getting Started\Shaders\vertex.shader" />
     <None Include="src\Getting Started\Shaders\fragment.shader" />
-    <None Include="src\Getting Started\Textures\fragment.shader" />
-    <None Include="src\Getting Started\Textures\vertex.shader" />
+    <None Include="src\Getting Started\Textures\texture.frag" />
+    <None Include="src\Getting Started\Textures\texture.vert" />
+    <None Include="src\Getting Started\Transformations\transformations.frag" />
+    <None Include="src\Getting Started\Transformations\transformations.vert" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="src\Getting Started\Textures\wall.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\Users\Crypticache\Downloads\container.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="src\Getting Started\Textures\container.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="src\Getting Started\Textures\awesomeface.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\awesomeface.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\container.jpg">
       <Filter>Resource Files</Filter>
     </Image>
   </ItemGroup>

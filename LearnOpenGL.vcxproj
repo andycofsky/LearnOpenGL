@@ -19,19 +19,28 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\Getting Started\Textures\textures.cpp" />
+    <ClCompile Include="src\Getting Started\Transformations\transformations.cpp" />
     <ClCompile Include="src\glad.c" />
+    <ClCompile Include="src\stb_image.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="headers\shader.h" />
+    <ClInclude Include="headers\stb_image.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="src\Getting Started\Shaders\fragment.shader" />
     <None Include="src\Getting Started\Shaders\vertex.shader" />
-    <None Include="src\Getting Started\Textures\fragment.shader" />
-    <None Include="src\Getting Started\Textures\vertex.shader" />
+    <None Include="src\Getting Started\Textures\texture.frag" />
+    <None Include="src\Getting Started\Textures\texture.vert" />
+    <None Include="src\Getting Started\Transformations\transformations.frag" />
+    <None Include="src\Getting Started\Transformations\transformations.vert" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="..\..\..\Users\Crypticache\Downloads\container.jpg" />
+    <Image Include="assets\awesomeface.png" />
+    <Image Include="assets\container.jpg" />
+    <Image Include="src\Getting Started\Textures\awesomeface.png" />
+    <Image Include="src\Getting Started\Textures\container.jpg" />
     <Image Include="src\Getting Started\Textures\wall.jpg" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
