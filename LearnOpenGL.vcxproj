@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\Getting Started\Transformations\transformations.cpp" />
+    <ClCompile Include="src\Getting Started\CoordSystems\coordsys.cpp" />
     <ClCompile Include="src\glad.c" />
     <ClCompile Include="src\stb_image.cpp" />
   </ItemGroup>
@@ -28,6 +28,8 @@
     <ClInclude Include="headers\stb_image.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="src\Getting Started\CoordSystems\coordsys.frag" />
+    <None Include="src\Getting Started\CoordSystems\coordsys.vert" />
     <None Include="src\Getting Started\Shaders\fragment.shader" />
     <None Include="src\Getting Started\Shaders\vertex.shader" />
     <None Include="src\Getting Started\Textures\texture.frag" />
